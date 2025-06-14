@@ -1,7 +1,7 @@
 ### AMOEBA
 A faster version of AMOEBA algorithm (Aldstadt & Getis 2006) that detects irregular-shaped spatial clusters using a bottom-up approach. 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bobyellow/AMOEBA/blob/main/AMOEBA_main%26visual.py)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bobyellow/AMOEBA/blob/main/AMOEBA_main%26visual.py)
 
 AMOEBA (A Multidirectional Optimal Ecotope-Based Algorithm) follows a bottom-up strategy to identify irregular-shaped ecotopes of high or low values without having such false-positive error. It starts with one or more seed cell (spatial unit) to which neighboring cells are iteratively included until the maximum (or minimal) magnitude of the local spatial statistics, e.g. local G statistics (Getis and Ord 1992; Ord and Getis 1995) has been reached. 
 
